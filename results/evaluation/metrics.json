@@ -1,0 +1,116 @@
+{
+  "single": {
+    "dice": 0.7158276295258436,
+    "dice_95ci": [
+      0.6661559612671278,
+      0.7643261018965571
+    ],
+    "iou": 0.6090157760161858,
+    "failures_dice_below_0.1": 5,
+    "ece": 0.03639295779688532,
+    "spearman_rho": -0.8611275813043118,
+    "spearman_p": 5.859998811331559e-30,
+    "dice_after_20pct_referral": 0.8119465080800541,
+    "referral_gain_20pct": 0.09611887855421053,
+    "by_class": {
+      "benign": {
+        "n": 66,
+        "dice": 0.7161637021354318,
+        "uncertainty": 0.3408208366785989
+      },
+      "malignant": {
+        "n": 32,
+        "dice": 0.7151344797685675,
+        "uncertainty": 0.37121284962338474
+      }
+    }
+  },
+  "mc_dropout": {
+    "dice": 0.7127068346091663,
+    "dice_95ci": [
+      0.662534110674888,
+      0.7619861936476278
+    ],
+    "iou": 0.6060236755624153,
+    "failures_dice_below_0.1": 5,
+    "ece": 0.033987792070389905,
+    "spearman_rho": -0.8710351994593526,
+    "spearman_p": 2.141857115622543e-31,
+    "dice_after_20pct_referral": 0.8108365335725838,
+    "referral_gain_20pct": 0.0981296989634175,
+    "by_class": {
+      "benign": {
+        "n": 66,
+        "dice": 0.7136125076637754,
+        "uncertainty": 0.37651299802027743
+      },
+      "malignant": {
+        "n": 32,
+        "dice": 0.7108388839340355,
+        "uncertainty": 0.4130631366556943
+      }
+    },
+    "images_better": 29,
+    "images_worse": 47,
+    "wilcoxon_p_vs_single": 0.011837067960254044
+  },
+  "tta": {
+    "dice": 0.7046108438221286,
+    "dice_95ci": [
+      0.6480895349660475,
+      0.7583280995389381
+    ],
+    "iou": 0.6049879903682627,
+    "failures_dice_below_0.1": 7,
+    "ece": 0.03133815020686494,
+    "spearman_rho": -0.8730753782300172,
+    "spearman_p": 1.047380668654176e-31,
+    "dice_after_20pct_referral": 0.8092181370632078,
+    "referral_gain_20pct": 0.1046072932410792,
+    "by_class": {
+      "benign": {
+        "n": 66,
+        "dice": 0.7081366365366889,
+        "uncertainty": 0.38997612675835225
+      },
+      "malignant": {
+        "n": 32,
+        "dice": 0.6973388963483479,
+        "uncertainty": 0.42842620768450235
+      }
+    },
+    "images_better": 48,
+    "images_worse": 39,
+    "wilcoxon_p_vs_single": 0.596275041459005
+  },
+  "ensemble": {
+    "dice": 0.7159682735195405,
+    "dice_95ci": [
+      0.6543670757270388,
+      0.7717950786770319
+    ],
+    "iou": 0.6276847965194641,
+    "failures_dice_below_0.1": 11,
+    "ece": 0.02445790539201085,
+    "spearman_rho": -0.8738404452690166,
+    "spearman_p": 7.983844803862889e-32,
+    "dice_after_20pct_referral": 0.8088943348267914,
+    "referral_gain_20pct": 0.0929260613072509,
+    "by_class": {
+      "benign": {
+        "n": 66,
+        "dice": 0.7073092612637274,
+        "uncertainty": 0.4211250119390169
+      },
+      "malignant": {
+        "n": 32,
+        "dice": 0.7338274862971549,
+        "uncertainty": 0.47731501752053773
+      }
+    },
+    "images_better": 66,
+    "images_worse": 25,
+    "wilcoxon_p_vs_single": 0.0020376868377459203
+  },
+  "test_images": 98
+}

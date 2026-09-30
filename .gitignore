@@ -1,0 +1,15 @@
+# Environment and caches
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+
+# Dataset and trained models (too large; dataset is downloaded from Kaggle)
+data/
+checkpoints/
+
+# Private documents (SOP, LORs, application notes) - never publish
+docs/
+Sheffield/
+*.docx
+*.pdf
